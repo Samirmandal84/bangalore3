@@ -14,7 +14,7 @@ body {
 .box {
   position: relative;
   width: 440px;
-  height: 480px;
+  height: 550px;
   background: #1c1c1c;
   border-radius: 8px;
   overflow: hidden;
@@ -63,7 +63,7 @@ body {
   flex-direction: column;
 }
 .form h2 {
-  color:  #1e97e8;
+  color: #1e97e8;
   font-weight: 500;
   text-align: center;
   letter-spacing: 0.3rem;
@@ -96,7 +96,8 @@ body {
   transition: 0.5s;
 }
 .inputBox input:valid ~ span,
-.inputBox input:focus ~ span {
+.inputBox input:focus ~ span,
+.inputBox input:empty ~ span {
   color: #1e97e8;
   transform: translateX(-10px) translateY(-30px);
   font-size: 0.9em;
@@ -129,13 +130,13 @@ body {
 }
 .links a:hover,
 .links a:nth-child(2) {
-  color:  #1e97e8;
+  color: #1e97e8;
 }
-input[type='submit'] {
+#register_btn {
   border: none;
   outline: none;
   cursor: pointer;
-  background:  #1e97e8;
+  background: #1e97e8;
   padding: 11px 25px;
   width: 100px;
   margin-top: 30px;
@@ -143,6 +144,21 @@ input[type='submit'] {
   font-weight: 600;
   color: rgb(32, 31, 31);
 }
-input[type='submit']:active {
+#register_btn:active {
   opacity: 0.8;
+}
+.homepage{
+  font-size: 1.5em;
+  text-decoration: none;
+  color: rgb(233, 235, 233);
+  position: absolute;
+  z-index: 10000000;
+  margin-left: 45%;
+  margin-top: 20px;
+}
+.home_img{
+ width: 25%;
+ margin-top: 2px;
+ right: 110%;
+ position: absolute;
 }
