@@ -107,7 +107,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  background-image: linear-gradient(to right, #72d361d3, #28b485a8);
+  background-image: linear-gradient(to right, #3fc1c1d3, #22dbc2a8);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: .2rem;
@@ -191,12 +191,12 @@ body {
     background-color: #fff; }
 
 .btn--green {
-  background-color: #55c57a;
+  background-color: #2c9bdb;
   color: #fff;
   letter-spacing: 1.8;
   text-align: center; }
   .btn--green::after {
-    background-color: #72d361d3; }
+    background-color: #30a9bbd3; }
 
 .btn::after {
   content: "";
@@ -217,15 +217,15 @@ body {
 
 .btn-text:link, .btn-text:visited {
   font-size: 1.6rem;
-  color: #55c57a;
+  color: #55c5c0;
   display: inline-block;
   text-decoration: none;
-  border-bottom: 1px solid #55c57a;
+  border-bottom: 1px solid #55c5c3;
   padding: 3px;
   transition: all .2sec; }
 
 .btn-text:hover {
-  background-color: #55c57a;
+  background-color: #55b4c5;
   color: #fff;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   transform: translateY(-2px); }
@@ -737,7 +737,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right, #72d361d3, #28b485a8), url(../img/Homepage.JPG);
+  background-image: linear-gradient(to right, #6fd1e0d3, #075875a8), url(../img/Homepage.JPG);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -949,7 +949,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right, #72d361d3, #28b485a8), url(../img/nat-4.jpg);
+  background-image: linear-gradient(to right, #6fd1e0d3, #075875a8), url(../img/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
